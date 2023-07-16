@@ -18,7 +18,6 @@
 		293697482A633F3500945137 /* AnimalsInfoAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293697472A633F3500945137 /* AnimalsInfoAPPUITests.swift */; };
 		2936974A2A633F3500945137 /* AnimalsInfoAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293697492A633F3500945137 /* AnimalsInfoAPPUITestsLaunchTests.swift */; };
 		293697572A63433300945137 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293697562A63433300945137 /* Animal.swift */; };
-		29FA413A2A6457D1000B62CF /* Screen-Recording.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29FA41392A6457D1000B62CF /* Screen-Recording.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		293697492A633F3500945137 /* AnimalsInfoAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsInfoAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		293697562A63433300945137 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		29FA41382A6455ED000B62CF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		29FA41392A6457D1000B62CF /* Screen-Recording.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "Screen-Recording.gif"; path = "../../../../Downloads/Screen-Recording.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +84,7 @@
 		2936971A2A633F3300945137 = {
 			isa = PBXGroup;
 			children = (
+				29FA41382A6455ED000B62CF /* README.md */,
 				293697252A633F3300945137 /* AnimalsInfoAPP */,
 				2936973C2A633F3500945137 /* AnimalsInfoAPPTests */,
 				293697462A633F3500945137 /* AnimalsInfoAPPUITests */,
@@ -106,7 +105,6 @@
 		293697252A633F3300945137 /* AnimalsInfoAPP */ = {
 			isa = PBXGroup;
 			children = (
-				29FA41392A6457D1000B62CF /* Screen-Recording.gif */,
 				293697262A633F3300945137 /* AppDelegate.swift */,
 				293697282A633F3300945137 /* SceneDelegate.swift */,
 				2936972A2A633F3300945137 /* ViewController.swift */,
@@ -116,7 +114,6 @@
 				293697342A633F3500945137 /* Info.plist */,
 				293697562A63433300945137 /* Animal.swift */,
 				2935EE042A63D0B900313DB9 /* WebViewController.swift */,
-				29FA41382A6455ED000B62CF /* README.md */,
 			);
 			path = AnimalsInfoAPP;
 			sourceTree = "<group>";
@@ -244,7 +241,6 @@
 			files = (
 				293697332A633F3500945137 /* LaunchScreen.storyboard in Resources */,
 				293697302A633F3500945137 /* Assets.xcassets in Resources */,
-				29FA413A2A6457D1000B62CF /* Screen-Recording.gif in Resources */,
 				2936972E2A633F3300945137 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
