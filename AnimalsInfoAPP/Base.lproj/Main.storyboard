@@ -40,7 +40,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRw-CY-gyY">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cheetah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRw-CY-gyY">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="150" id="W0A-7G-NrA"/>
@@ -75,7 +75,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3N3-Nt-HN9">
                                                 <rect key="frame" x="32" y="260" width="329" height="144"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="h93-0P-JLq">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="elephant" translatesAutoresizingMaskIntoConstraints="NO" id="h93-0P-JLq">
                                                         <rect key="frame" x="-8" y="-9" width="211" height="189"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="203" id="Uhf-Qo-bI7"/>
@@ -90,7 +90,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fN-sW-D0b">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Elephant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fN-sW-D0b">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="FxW-xb-04r"/>
@@ -125,7 +125,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMg-KR-F5B">
                                                 <rect key="frame" x="32" y="496" width="329" height="144"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="J5X-t0-3Xr">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gorilla" translatesAutoresizingMaskIntoConstraints="NO" id="J5X-t0-3Xr">
                                                         <rect key="frame" x="-8" y="-9" width="211" height="189"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="203" id="tif-Pw-gZ2"/>
@@ -140,7 +140,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRa-0Y-hw9">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Gorilla" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRa-0Y-hw9">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="fp5-6L-zgD"/>
@@ -175,7 +175,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mne-F7-8dR">
                                                 <rect key="frame" x="32" y="726" width="329" height="144"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="1ZG-oX-Qyo">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="griffe" translatesAutoresizingMaskIntoConstraints="NO" id="1ZG-oX-Qyo">
                                                         <rect key="frame" x="-8" y="-9" width="211" height="189"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="128" id="43K-up-z2b"/>
@@ -190,7 +190,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0L-VD-2JB">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Griffe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0L-VD-2JB">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="TOF-N4-s7p"/>
@@ -225,7 +225,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TzF-6X-f6H">
                                                 <rect key="frame" x="32" y="944" width="329" height="144"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="cDM-Fg-JqL">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hippo" translatesAutoresizingMaskIntoConstraints="NO" id="cDM-Fg-JqL">
                                                         <rect key="frame" x="-8" y="-9" width="211" height="189"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="128" id="XfE-Qp-F2Z"/>
@@ -240,7 +240,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikw-Kl-I7T">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hippo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikw-Kl-I7T">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="FJf-kd-pul"/>
@@ -275,7 +275,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y80-c2-T0T">
                                                 <rect key="frame" x="32" y="1170" width="329" height="144"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="ejj-21-xBJ">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lion" translatesAutoresizingMaskIntoConstraints="NO" id="ejj-21-xBJ">
                                                         <rect key="frame" x="-8" y="-9" width="211" height="189"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="203" id="GY0-iC-vSi"/>
@@ -290,7 +290,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeJ-rF-3Im">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeJ-rF-3Im">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="150" id="ADu-Ys-sNb"/>
@@ -325,7 +325,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CfF-fJ-dx5">
                                                 <rect key="frame" x="32" y="1395" width="329" height="144"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="Faq-Ch-9mP">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ostrich" translatesAutoresizingMaskIntoConstraints="NO" id="Faq-Ch-9mP">
                                                         <rect key="frame" x="-8" y="-9" width="211" height="189"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="203" id="gwJ-Nb-lMm"/>
@@ -340,7 +340,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoI-kn-Jlp">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ostrich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoI-kn-Jlp">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="150" id="OdR-hJ-0mc"/>
@@ -375,7 +375,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QlL-WO-K1p">
                                                 <rect key="frame" x="32" y="1625" width="329" height="144"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="Hia-lt-pwQ">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="zebra" translatesAutoresizingMaskIntoConstraints="NO" id="Hia-lt-pwQ">
                                                         <rect key="frame" x="-8" y="-9" width="211" height="189"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="203" id="Jqh-6g-5bZ"/>
@@ -390,7 +390,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHM-cv-V68">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Zebra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHM-cv-V68">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="GVD-TT-4pJ"/>
@@ -595,6 +595,13 @@
     </scenes>
     <resources>
         <image name="cheetah" width="2560" height="1600"/>
+        <image name="elephant" width="2560" height="1600"/>
+        <image name="gorilla" width="2560" height="1600"/>
+        <image name="griffe" width="2560" height="1600"/>
+        <image name="hippo" width="2560" height="1600"/>
+        <image name="lion" width="2560" height="1600"/>
+        <image name="ostrich" width="2560" height="1600"/>
+        <image name="zebra" width="2560" height="1600"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
