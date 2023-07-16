@@ -20,3 +20,7 @@ To install the Animal Explorer App on your iOS device, follow these steps:
 3.  Connect your iOS device to your computer.
 4.  Select your device as the build target.
 5.  Click the "Run" button in Xcode to install the app on your device.
+
+## Demo
+
+https://www.youtube.com/watch?v=70o5LZEZwlQ
