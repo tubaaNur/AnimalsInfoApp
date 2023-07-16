@@ -32,32 +32,14 @@
                                                             <constraint firstAttribute="width" constant="203" id="g0k-kp-Hia"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQb-G1-ou7">
-                                                        <rect key="frame" x="224" y="51" width="68" height="35"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="35" id="UH8-4h-Oav"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Video"/>
-                                                        <connections>
-                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="cheetahVideo" id="kyj-1b-uiz"/>
-                                                        </connections>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cheetah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRw-CY-gyY">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheetah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRw-CY-gyY">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="150" id="W0A-7G-NrA"/>
-                                                            <constraint firstAttribute="height" constant="21" id="fOA-KY-SCu"/>
-                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOb-Be-nRY">
-                                                        <rect key="frame" x="211" y="101" width="98.333333333333343" height="35"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="35" id="jML-ax-vS8"/>
-                                                        </constraints>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOb-Be-nRY">
+                                                        <rect key="frame" x="216" y="94" width="98.333333333333343" height="35"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
                                                         <connections>
@@ -65,18 +47,32 @@
                                                             <segue destination="NY0-VG-Ulq" kind="show" identifier="cheetahWiki" id="9AQ-kw-pFd"/>
                                                         </connections>
                                                     </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQb-G1-ou7">
+                                                        <rect key="frame" x="231" y="55" width="68" height="35"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="cheetahVideo" id="kyj-1b-uiz"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="HRw-CY-gyY" firstAttribute="leading" secondItem="JA2-B8-wEX" secondAttribute="trailing" constant="25" id="AZn-yD-V6W"/>
+                                                    <constraint firstItem="NOb-Be-nRY" firstAttribute="bottom" secondItem="luU-Lo-3m1" secondAttribute="bottomMargin" constant="-7" id="Anl-ei-PLD"/>
+                                                    <constraint firstItem="rQb-G1-ou7" firstAttribute="centerX" secondItem="luU-Lo-3m1" secondAttribute="centerX" constant="100.5" id="Guo-20-JHI"/>
+                                                    <constraint firstItem="HRw-CY-gyY" firstAttribute="top" secondItem="luU-Lo-3m1" secondAttribute="top" constant="23" id="IQP-Bd-jLv"/>
+                                                    <constraint firstItem="HRw-CY-gyY" firstAttribute="centerY" secondItem="luU-Lo-3m1" secondAttribute="centerY" constant="-38.5" id="JNL-5r-Loq"/>
+                                                    <constraint firstItem="rQb-G1-ou7" firstAttribute="centerX" secondItem="luU-Lo-3m1" secondAttribute="centerX" constant="100.5" id="MEq-gn-0BC"/>
                                                     <constraint firstItem="JA2-B8-wEX" firstAttribute="centerY" secondItem="luU-Lo-3m1" secondAttribute="centerY" id="QX4-ii-Ocj"/>
-                                                    <constraint firstItem="NOb-Be-nRY" firstAttribute="bottom" secondItem="JA2-B8-wEX" secondAttribute="bottom" id="WsX-K5-sdu"/>
-                                                    <constraint firstItem="rQb-G1-ou7" firstAttribute="leading" secondItem="JA2-B8-wEX" secondAttribute="trailing" constant="21" id="Y6G-Jw-dTn"/>
-                                                    <constraint firstItem="NOb-Be-nRY" firstAttribute="top" secondItem="rQb-G1-ou7" secondAttribute="bottom" constant="15" id="ZyC-1n-kZ9"/>
-                                                    <constraint firstItem="rQb-G1-ou7" firstAttribute="top" secondItem="HRw-CY-gyY" secondAttribute="bottom" constant="22" id="gDj-Jj-IPQ"/>
-                                                    <constraint firstItem="NOb-Be-nRY" firstAttribute="leading" secondItem="JA2-B8-wEX" secondAttribute="trailing" constant="4" id="k3k-c2-8aE"/>
-                                                    <constraint firstItem="JA2-B8-wEX" firstAttribute="bottom" secondItem="NOb-Be-nRY" secondAttribute="bottom" id="mau-8H-LcU"/>
-                                                    <constraint firstItem="HRw-CY-gyY" firstAttribute="top" secondItem="luU-Lo-3m1" secondAttribute="topMargin" id="ouJ-yB-r1U"/>
+                                                    <constraint firstItem="NOb-Be-nRY" firstAttribute="centerX" secondItem="luU-Lo-3m1" secondAttribute="centerX" constant="100.66666666666669" id="RCx-fH-WJt"/>
+                                                    <constraint firstItem="rQb-G1-ou7" firstAttribute="leading" secondItem="JA2-B8-wEX" secondAttribute="trailing" constant="28" id="ROr-IZ-HHk"/>
+                                                    <constraint firstAttribute="trailing" secondItem="HRw-CY-gyY" secondAttribute="trailing" constant="20" id="XeV-70-myO"/>
+                                                    <constraint firstItem="HRw-CY-gyY" firstAttribute="centerX" secondItem="luU-Lo-3m1" secondAttribute="centerX" constant="104" id="eei-h7-HZx"/>
+                                                    <constraint firstItem="NOb-Be-nRY" firstAttribute="centerX" secondItem="luU-Lo-3m1" secondAttribute="centerX" constant="100.66666666666669" id="mjv-dh-ptF"/>
+                                                    <constraint firstItem="rQb-G1-ou7" firstAttribute="top" secondItem="HRw-CY-gyY" secondAttribute="bottom" constant="11" id="qIn-ih-Rxy"/>
+                                                    <constraint firstItem="HRw-CY-gyY" firstAttribute="leading" secondItem="JA2-B8-wEX" secondAttribute="trailing" constant="25" id="vQO-yr-dnc"/>
+                                                    <constraint firstItem="HRw-CY-gyY" firstAttribute="centerX" secondItem="luU-Lo-3m1" secondAttribute="centerX" constant="104" id="vw2-57-05F"/>
                                                     <constraint firstItem="JA2-B8-wEX" firstAttribute="leading" secondItem="luU-Lo-3m1" secondAttribute="leading" id="xY7-cm-JCN"/>
+                                                    <constraint firstItem="NOb-Be-nRY" firstAttribute="top" secondItem="rQb-G1-ou7" secondAttribute="bottom" constant="4" id="xzZ-Wa-Y2p"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3N3-Nt-HN9">
@@ -480,7 +476,6 @@
                                             <constraint firstItem="TzF-6X-f6H" firstAttribute="top" secondItem="mne-F7-8dR" secondAttribute="bottom" constant="74" id="3ai-xB-aeQ"/>
                                             <constraint firstItem="wMg-KR-F5B" firstAttribute="leading" secondItem="c1D-aI-RnV" secondAttribute="leading" constant="34" id="4Dc-cF-ofd"/>
                                             <constraint firstItem="3N3-Nt-HN9" firstAttribute="trailing" secondItem="luU-Lo-3m1" secondAttribute="trailing" id="9av-5Y-PYc"/>
-                                            <constraint firstItem="luU-Lo-3m1" firstAttribute="centerX" secondItem="c1D-aI-RnV" secondAttribute="centerX" id="BdQ-Xf-GMd"/>
                                             <constraint firstItem="wMg-KR-F5B" firstAttribute="top" secondItem="3N3-Nt-HN9" secondAttribute="bottom" constant="92" id="Dhm-IE-2x2"/>
                                             <constraint firstItem="mne-F7-8dR" firstAttribute="top" secondItem="wMg-KR-F5B" secondAttribute="bottom" constant="86" id="EGs-MU-dTF"/>
                                             <constraint firstItem="Y80-c2-T0T" firstAttribute="top" secondItem="TzF-6X-f6H" secondAttribute="bottom" constant="82" id="EPI-q5-0UZ"/>
@@ -669,7 +664,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zwl-4j-ybj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1119.8473282442749" y="-257.04225352112678"/>
+            <point key="canvasLocation" x="1095" y="374"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
