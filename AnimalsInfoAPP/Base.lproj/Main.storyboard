@@ -39,6 +39,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="cheetahVideo" id="kyj-1b-uiz"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cheetah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRw-CY-gyY">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
@@ -51,12 +54,16 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOb-Be-nRY">
-                                                        <rect key="frame" x="211" y="116" width="98.333333333333343" height="35"/>
+                                                        <rect key="frame" x="211" y="101" width="98.333333333333343" height="35"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="35" id="jML-ax-vS8"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
+                                                        <connections>
+                                                            <action selector="cheetahWikiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiy-Gc-RYs"/>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="cheetahWiki" id="9AQ-kw-pFd"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -89,6 +96,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="elephantVideo" id="UGf-ds-5jX"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Elephant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fN-sW-D0b">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
@@ -107,6 +117,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="elephantWiki" id="jwj-yw-VmK"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -139,6 +152,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="gorillaVideo" id="kpU-Lx-Ctd"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Gorilla" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRa-0Y-hw9">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
@@ -157,6 +173,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="gorillaWiki" id="3VY-QY-3cH"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -189,6 +208,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="giraffeVideo" id="lAs-mq-LkR"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Griffe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0L-VD-2JB">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
@@ -207,6 +229,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="giraffeWiki" id="X0z-Kn-P4h"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -239,6 +264,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="hippoVideo" id="3Qf-1L-gOW"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hippo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikw-Kl-I7T">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
@@ -257,6 +285,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="hippoWiki" id="1bQ-yz-usB"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -289,6 +320,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="lionVideo" id="cp3-Pf-ayp"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeJ-rF-3Im">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
@@ -307,6 +341,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="lionWiki" id="Tis-fp-NVM"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -339,6 +376,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="ostrichVideo" id="8cn-R4-H59"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ostrich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoI-kn-Jlp">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
@@ -357,6 +397,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="ostrichWiki" id="H57-Tb-F2y"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -389,6 +432,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Video"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="zebraVideo" id="buT-Se-pA3"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Zebra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHM-cv-V68">
                                                         <rect key="frame" x="228" y="23" width="81" height="21"/>
@@ -407,6 +453,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Wikipedia"/>
+                                                        <connections>
+                                                            <segue destination="NY0-VG-Ulq" kind="show" identifier="zebraWiki" id="AzU-1W-ThL"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -592,7 +641,40 @@
             </objects>
             <point key="canvasLocation" x="116.79389312977099" y="3.5211267605633805"/>
         </scene>
+        <!--Web View Controller-->
+        <scene sceneID="VWZ-6R-MWA">
+            <objects>
+                <viewController id="NY0-VG-Ulq" customClass="WebViewController" customModule="AnimalsInfoAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wKE-Kz-BGl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VxK-4W-whv">
+                                <rect key="frame" x="0.0" y="-10" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cXW-pd-Vpd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FGR-Ei-t73"/>
+                    <connections>
+                        <outlet property="webView" destination="VxK-4W-whv" id="4L2-ss-nUV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zwl-4j-ybj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1119.8473282442749" y="-257.04225352112678"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="AzU-1W-ThL"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="cheetah" width="2560" height="1600"/>
         <image name="elephant" width="2560" height="1600"/>

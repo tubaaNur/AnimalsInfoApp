@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2935EE052A63D0B900313DB9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935EE042A63D0B900313DB9 /* WebViewController.swift */; };
 		293697272A633F3300945137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293697262A633F3300945137 /* AppDelegate.swift */; };
 		293697292A633F3300945137 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293697282A633F3300945137 /* SceneDelegate.swift */; };
 		2936972B2A633F3300945137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936972A2A633F3300945137 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2935EE042A63D0B900313DB9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		293697232A633F3300945137 /* AnimalsInfoAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsInfoAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		293697262A633F3300945137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		293697282A633F3300945137 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				293697312A633F3500945137 /* LaunchScreen.storyboard */,
 				293697342A633F3500945137 /* Info.plist */,
 				293697562A63433300945137 /* Animal.swift */,
+				2935EE042A63D0B900313DB9 /* WebViewController.swift */,
 			);
 			path = AnimalsInfoAPP;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				2936972B2A633F3300945137 /* ViewController.swift in Sources */,
 				293697572A63433300945137 /* Animal.swift in Sources */,
 				293697272A633F3300945137 /* AppDelegate.swift in Sources */,
+				2935EE052A63D0B900313DB9 /* WebViewController.swift in Sources */,
 				293697292A633F3300945137 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
