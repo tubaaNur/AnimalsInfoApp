@@ -16,6 +16,7 @@
 		2936973E2A633F3500945137 /* AnimalsInfoAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936973D2A633F3500945137 /* AnimalsInfoAPPTests.swift */; };
 		293697482A633F3500945137 /* AnimalsInfoAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293697472A633F3500945137 /* AnimalsInfoAPPUITests.swift */; };
 		2936974A2A633F3500945137 /* AnimalsInfoAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293697492A633F3500945137 /* AnimalsInfoAPPUITestsLaunchTests.swift */; };
+		293697572A63433300945137 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293697562A63433300945137 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		293697432A633F3500945137 /* AnimalsInfoAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsInfoAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		293697472A633F3500945137 /* AnimalsInfoAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsInfoAPPUITests.swift; sourceTree = "<group>"; };
 		293697492A633F3500945137 /* AnimalsInfoAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsInfoAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		293697562A63433300945137 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2936972F2A633F3500945137 /* Assets.xcassets */,
 				293697312A633F3500945137 /* LaunchScreen.storyboard */,
 				293697342A633F3500945137 /* Info.plist */,
+				293697562A63433300945137 /* Animal.swift */,
 			);
 			path = AnimalsInfoAPP;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2936972B2A633F3300945137 /* ViewController.swift in Sources */,
+				293697572A63433300945137 /* Animal.swift in Sources */,
 				293697272A633F3300945137 /* AppDelegate.swift in Sources */,
 				293697292A633F3300945137 /* SceneDelegate.swift in Sources */,
 			);
